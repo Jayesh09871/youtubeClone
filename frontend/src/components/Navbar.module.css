@@ -1,0 +1,94 @@
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  
+  .logo{
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    cursor: pointer;
+  }  
+  .first{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem; 
+  }
+  .icon{
+    font-size: 1.25rem; 
+  line-height: 1.75rem; 
+  cursor: pointer;
+  }
+  .search{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border: none;
+  }
+  .second{
+    display: flex;
+    width: 35%;
+  height: 40px;
+  margin-left: 18rem;
+    width: 50%; 
+    height: 40px;
+  }
+  .second2{
+    width: 100%;
+    padding-left: 0.75rem; 
+  padding-right: 0.75rem;
+  padding-top:8px;
+  border-color: rgb(219, 216, 216);
+  border-style: solid;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  }
+  .button{
+    padding-left: 1rem; 
+  padding-right: 1rem; 
+  padding-top: 0.5rem; 
+  padding-bottom: 0.5rem; 
+  border-color: rgb(219, 216, 216);
+  border-style: solid;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  cursor: pointer;
+  }
+  .SearchIcon{
+    font-size: 0.5rem; 
+  }
+  .mic{
+    font-size: 1rem; 
+    margin-left: 0.75rem; 
+    border-radius: 9999px;
+    padding: 0.5rem; 
+  
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-color: rgb(244, 241, 241);
+  }
+  .mic:hover {
+    background-color: #e5e7eb; 
+  }
+  .third{
+    width: 8%;
+    justify-content: space-between;
+    margin-left: 1; 
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-right: 2.20rem;
+  }
+  .video{
+    font-size: 1.6rem;
+  }
+  .Notification{
+    font-size: 1.6rem;
+  }
+  .avatar {
+    width: 2rem; 
+    height: 2rem; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  
