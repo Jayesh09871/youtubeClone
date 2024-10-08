@@ -7,7 +7,7 @@ import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import logo from "../../public/logo.png"; 
+import logo from "../../src/assets/logo.png"; 
 
 export default function Sidebar() {
   const sidebarItems = [
