@@ -71,7 +71,8 @@
     background-color: #e5e7eb; 
   }
   .third{
-    width: 8%;
+   
+    width: 12%;
     justify-content: space-between;
     margin-left: 1; 
     display: flex;
@@ -79,16 +80,30 @@
     gap: 1.2rem;
     margin-right: 2.20rem;
   }
-  .video{
-    font-size: 1.6rem;
+  .signinbtn{
+    cursor: pointer;
+  background-color: white;
+  color: #065fd4; 
+  
+  border: 1px solid #065fd4;
+  border-radius: 9999px;
+  padding: 5px 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  gap: 0.5rem; 
   }
-  .Notification{
-    font-size: 1.6rem;
+  .signinbtn:hover {
+    background-color: #e5f3ff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  .avatar {
-    width: 2rem; 
-    height: 2rem; 
-    border-radius: 50%; 
-    object-fit: cover; 
+  .signinbtnicon{
+    border: 1px solid;
+    border-radius: 9999px;
+    font-size: small;
   }
   
