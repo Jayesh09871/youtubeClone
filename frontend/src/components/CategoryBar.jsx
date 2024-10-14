@@ -12,7 +12,6 @@ const categories = [
   'Food', 
   'Fashion'
 ];
-
 export default function CategoryBar() {
   const [selectedCategory, setSelectedCategory] = useState('All');
 

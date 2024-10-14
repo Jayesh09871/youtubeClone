@@ -24,7 +24,7 @@ export default function SignInForm({ onClose }) {
       alert('Please fill in all fields.');
     }
   };
-
+  
   return (
     <div className={styles.signInFormOverlay}>
       <div className={styles.signInForm}>
@@ -32,7 +32,7 @@ export default function SignInForm({ onClose }) {
         <h1 className={styles.h1}>Create Your Account</h1>
         <h5 className={styles.h6}>Unlock Your World of Entertainment, Unlock Your World of Entertainment, Join the YouTube Community</h5>
         <form onSubmit={handleSubmit}>
-          <input 
+          <input
             type="text" 
             name="name" 
             placeholder="Name" 
