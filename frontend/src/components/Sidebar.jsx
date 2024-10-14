@@ -10,7 +10,7 @@ import logo from "../../src/assets/logo.png";
 export default function Sidebar() {
   const sidebarItems = [ 
     { id: 1, icon: <HomeIcon /> },
-    { id: 2, icon: <img src="https://img.icons8.com/?size=100&id=5nyR2QmLDXKY&format=png&color=000000" alt="YouTube Shorts" className={styles.youtubeIcon} /> }, // Updated line
+    { id: 2, icon: <img src="https://img.icons8.com/?size=100&id=5nyR2QmLDXKY&format=png&color=000000" alt="YouTube Shorts" className={styles.youtubeIcon} /> },
     { id: 3, icon: <SubscriptionsIcon /> },
     { id: 4, icon: <VideoLibraryIcon /> },
     { id: 5, icon: <AccessTimeIcon /> },
