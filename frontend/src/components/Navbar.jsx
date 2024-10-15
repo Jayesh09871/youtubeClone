@@ -6,6 +6,9 @@ import VideoCallIcon from '@mui/icons-material/VideoCall';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import PermIdentityRoundedIcon from '@mui/icons-material/PermIdentityRounded';
 import SignInForm from './SignInForm';
+import GoogleIcon from '@mui/icons-material/Google';
+import SwitchAccountIcon from '@mui/icons-material/SwitchAccount';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 export default function Navbar() {
   const [isSignInVisible, setSignInVisible] = useState(false);
@@ -92,9 +95,19 @@ export default function Navbar() {
                   </div>
                 </div>
                 <hr className={styles.divider} />
-                <div className={styles.dropdownOption}>Google Account</div>
-                <div className={styles.dropdownOption} onClick={toggleSignIn}>Switch Accounts</div>
-                <div className={styles.dropdownOption} onClick={handleLogout}>Sign Out</div>
+                <div className={styles.dropdownOption}>
+  <GoogleIcon className={styles.toggleicon} />
+  <span>Google Account</span>
+</div>
+<div className={styles.dropdownOption} onClick={toggleSignIn}>
+  <SwitchAccountIcon className={styles.toggleicon} />
+  <span>Switch Accounts</span>
+</div>
+<div className={styles.dropdownOption} onClick={handleLogout}>
+  <ExitToAppIcon className={styles.toggleicon} />
+  <span>Sign Out</span>
+</div>
+
               </div>
             )}
           </div>

@@ -11,10 +11,8 @@
     width: 300px;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
+    border-radius: 4%;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
   }
   
   .thumbnail {
@@ -27,10 +25,22 @@
     padding: 0.5rem;
   }
   
+  .profileTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profileImage {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+  }
+  
   .title {
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: 0.5rem;
   }
   
   .channel {
